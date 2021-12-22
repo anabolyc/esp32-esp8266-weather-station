@@ -1,7 +1,7 @@
 // Created by http://oleddisplay.squix.ch/ Consider a donation
 // In case of problems make sure that you are using the font file with the correct version!
-const uint8_t Orbitron_Medium_20Bitmaps[] PROGMEM = {
 
+const uint8_t Orbitron_Medium_20Bitmaps[] PROGMEM = {
 	// Bitmap Data:
 	0x00, // ' '
 	0xDB,0x6D,0xB6,0xD8,0x0D,0x80, // '!'
@@ -98,6 +98,7 @@ const uint8_t Orbitron_Medium_20Bitmaps[] PROGMEM = {
 	0xDB,0x6D,0xB6,0xDB,0x6D,0xB6,0xDB,0x00, // '|'
 	0xE7,0x18,0xC6,0x38,0xC6,0x63,0x18,0xCE,0x60 // '}'
 };
+
 const GFXglyph Orbitron_Medium_20Glyphs[] PROGMEM = {
 // bitmapOffset, width, height, xAdvance, xOffset, yOffset
 	  {     0,   1,   1,   7,    0,    0 }, // ' '
@@ -195,5 +196,6 @@ const GFXglyph Orbitron_Medium_20Glyphs[] PROGMEM = {
 	  {  1890,   3,  19,   5,    1,  -17 }, // '|'
 	  {  1898,   5,  14,   7,    1,  -14 } // '}'
 };
+
 const GFXfont Orbitron_Medium_20 PROGMEM = {
-(uint8_t  *)Orbitron_Medium_20Bitmaps,(GFXglyph *)Orbitron_Medium_20Glyphs,0x20, 0x7E, 20};
+	(uint8_t *)Orbitron_Medium_20Bitmaps, (GFXglyph *)Orbitron_Medium_20Glyphs, 0x20, 0x7E, 20};
