@@ -1,4 +1,4 @@
-## ESP32 and ESP8266 fake windows xp port
+## ESP32 and ESP8266 wifi weather station
 
 This is a Weather Station project made by [VolosR](https://github.com/VolosR/TTGOWeatherStation) that loads and displays weather forecasts for given location.
 
